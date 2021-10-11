@@ -32,4 +32,29 @@ The results per the audit are as follows:
 
 ## Challenge Overview 
 
-## Challenge Summary 
+The election committee needs additional information from the CSV document that contains the election data. They need me to write a script that will also obtain the following information:
+  - Voter turnout for each county that participated 
+  - Percentage of votes contributed by each county 
+  - The county with the highest voter turnout 
+ 
+## Challenge Results 
+
+As previously defined, there were a total of 369,711 votes in this election. Here are the county-based results: 
+
+Counties included:   
+  - Jefferson
+    - Contributed to 10.5% of election votes (38,855 votes)
+  - Denver 
+    - Contributed to 82.8% of election votes (306,055 votes)
+  - Arapahoe 
+    - Contributed to 6.7% of election votes (24,801 votes)
+
+Denver had the highest voter turnout. 
+
+## Challenge Summary
+
+This script can be used to gather data from a CSV document containing information for any election with similar data. Since the script is able to iterate through each row and collect data from each column, it can be used not only to gather county and candidate data, but other data as well.
+
+For example, if columns were added to the election dataset that included voter demographics such as age and ethnicity, we would be able to determine trends for a specific election. 
+
+Another example would be to add a column for voting method. We could then iterate through the data to find the most popular voting method overall, or within a specific county, so we would know how to best cater to a precinct to increase voter turnout. 
