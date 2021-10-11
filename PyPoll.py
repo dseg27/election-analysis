@@ -18,6 +18,8 @@ file_to_Save = os.path.join("Analysis", "election_analysis.txt")
 total_votes = 0
 candidate_options = [] 
 candidate_votes = {}
+counties_list= []
+
 
 # Winning candidate and count tracker variables
 
