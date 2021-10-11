@@ -20,9 +20,9 @@ The results per the audit are as follows:
 
 - There were a total of 369,711 votes 
 - Candidates included:  
-  1. Charles Casper Stockham
-  2. Diana DeGette
-  3. Raymon Anthony Doane
+  - Charles Casper Stockham
+  - Diana DeGette
+  - Raymon Anthony Doane
 - Candidate results: 
   - Charles Casper Stockham received 23.0% of the vote-- (85,213 votes).
   - Diana DeGette received 73.8% of the vote-- (272,892 votes)
