@@ -55,6 +55,6 @@ Denver had the highest voter turnout.
 
 This script can be used to gather data from a CSV document containing information for any election with similar data. Since the script is able to iterate through each row and collect data from each column, it can be used not only to gather county and candidate data, but other data as well.
 
-For example, if columns were added to the election dataset that included voter demographics such as age and ethnicity, we would be able to determine trends for a specific election. 
+For example, if columns were added to the election dataset that included voter demographics such as age and ethnicity, we would be able to determine trends for a specific candidate. Instead of making a dictionary with candidates and votes, we could make the value instead be the voter demographic to find trends between voter demographics and candidates. 
 
 Another example would be to add a column for voting method. We could then iterate through the data to find the most popular voting method overall, or within a specific county, so we would know how to best cater to a precinct to increase voter turnout. 
